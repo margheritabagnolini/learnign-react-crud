@@ -1,0 +1,32 @@
+Hi :)
+
+esegui le istruzioni qui elencate per far funzionare il tutto
+
+
+- aprire la cartella studio1 su vscode (mi raccomando aprire solo la cartella studio1 e non react-crud)
+i file utilizzati da noi sono principalmente dentro la sottocartella src e src/components/
+
+- aprire un nuovo terminale dentro la cartella (da vscode o da sistema, vedi tu)
+
+- nel terminale --> npm start
+aspettando che parta, dovrebbe aprirti in automatico una finestra del browser al --> http://localhost:3000/
+ATTENZIONE, AL MOMENTO è NORMALE NON VISUALIZZARE I DATI,
+abbi un secondo di pazienza e prosegui con le istruzioni successive
+
+
+IF (vuoi fare da capo || non hai json-server già installato){
+- nel terminale --> npm install -g json-server
+ti dovrebbe creare un file chiamato db.json dentro la cartella studio1
+}
+
+- nel terminale powershell --> json-server --watch db.json --port 8000
+così che tu possa interagire col db (json)
+RICARICA LA PAGINA DI REACT E IN TEORIA DOVREBBERO ESSERE COMPARSI I DATI
+
+
+perfetto,
+ora prova a fare qualche post, put, delete (quello che vuoi), e se qualcosa non funziona o non ti è chiaro scrivimi
+
+
+Ciao e buona vita
+
